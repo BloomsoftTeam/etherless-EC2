@@ -5,6 +5,10 @@ let lambda = new AWS.Lambda();
 
 let params = {
     Code: {
+        S3Bucket: 'deploybucketsamu',
+        S3Key: 'STRING_VALUE', //penso che la si metta quando hai messo qualcosa nel bucket
+        S3ObjectVersion: 'STRING_VALUE',
+        ZipFile: Buffer.from('...') || 'STRING_VALUE'
     },
     Description: "Function to create Lambda functions from code deployed from Etherless", 
     FunctionName: "deployFunctions", 
