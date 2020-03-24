@@ -1,2 +1,2 @@
-# etherless-EC2
-File da far eseguire su EC2
+# etherless-webhook
+Webhook service to monitor Ropsten events 
